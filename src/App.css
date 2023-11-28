@@ -40,7 +40,7 @@
 .selected{
   background-color: #FFF6D6;
 }
-.selected .favorite span{
+.selected .favorite button{
   color: #FFD231;
 }
 .favorite{
@@ -48,4 +48,14 @@
 }
 .actions{
   padding-right: 15px;
+}
+.actions button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.favorite button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
